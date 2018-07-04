@@ -112,6 +112,7 @@ namespace WebApplicationMVC.Controllers
                 GolesLocal = 2,
                 GolesVisitante = 1
             };
+
             var x = partido.InformarResultado;
             return View(partido);
         }
